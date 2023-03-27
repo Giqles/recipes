@@ -1,0 +1,9 @@
+<!-- Your search input and results container -->
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Search recipes...">
+    <div id="search-results"></div>
+    <input type="hidden" id="search-index-url" value="{{ '/search_index.json' | absolute_url }}">
+</div>
+<!-- Include the search.js file -->
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
