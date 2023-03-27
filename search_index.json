@@ -1,14 +1,27 @@
----
-layout: null
----
 [
-  {% for recipe in site.recipes %}
+  
     {
-      "id": "{{ forloop.index0 }}",  
-      "title": "{{ recipe.title | escape }}",
-      "url": "{{ recipe.url | absolute_url }}",
-      "content": "{{ recipe.ingredients | strip_html | escape }}"
+      "id": "0",  
+      "title": "Dan Dan Noodles",
+      "url": "https://adamgil.es/food/recipes/dan-dan-noodles/",
+      "content": "[&quot;75ml Chili oil&quot;, &quot;Crispy Chili sauce&quot;, &quot;Wheat noodles&quot;, &quot;~200g Minced Pork&quot;, &quot;2 heads of Pak Choy&quot;, &quot;~1 tsp Neutral oil to brown the pork in&quot;, &quot;2 tsp Hoisin Sauce&quot;, &quot;2 tsp Shaoxing Wine&quot;, &quot;1 tsp dark soy sauce&quot;, &quot;2 tbsp tahini&quot;, &quot;3 tbsp light soy sauce&quot;, &quot;1 tsp sugar&quot;, &quot;0.75 tsp Five Spice Powder (0.5 in the meat, 0.25 in the sauce)&quot;, &quot;0.5 tsp Sichuan Peppercorn Powder&quot;, &quot;2 Cloves of Garlic (minced)&quot;, &quot;Chopped Peanuts&quot;, &quot;Spring Onions&quot;]"
     }
-    {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    ,
+  
+    {
+      "id": "1",  
+      "title": "Pad Kra Pao",
+      "url": "https://adamgil.es/food/recipes/pad-kra-pao/",
+      "content": "[&quot;3 tbsp of vegetable oil&quot;, &quot;2 shallots, thinly sliced&quot;, &quot;7 cloves of garlic, minced&quot;, &quot;3+ bird&#39;s eye chilies&quot;, &quot;450g of beef mince (~10% fat)&quot;, &quot;1 tsp of sugar&quot;, &quot;1 tbsp of fish sauce&quot;, &quot;1 tbsp of light soy sauce&quot;, &quot;2 tsp of dark soy sauce&quot;, &quot;2 tsp of oyster sauce&quot;, &quot;100ml chicken stock&quot;, &quot;large handful of thai basil leaves (maybe 100g)&quot;]"
+    }
+    ,
+  
+    {
+      "id": "2",  
+      "title": "Sausage Pasta",
+      "url": "https://adamgil.es/food/recipes/sausage-pasta/",
+      "content": "[&quot;1 pack of herby/spiced sausages. Cumberlands are good&quot;, &quot;1 large glass of dry white wine&quot;, &quot;1 white onion&quot;, &quot;500ml of vegetable stock&quot;, &quot;500g of pasta&quot;, &quot;Parmigiano&quot;, &quot;Black pepper&quot;]"
+    }
+    
+  
 ]

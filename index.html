@@ -10,14 +10,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Adam and Tere’s recipes." />
 <meta property="og:description" content="Adam and Tere’s recipes." />
-<link rel="canonical" href="https://adamgil.es/food/404.html" />
-<meta property="og:url" content="https://adamgil.es/food/404.html" />
+<link rel="canonical" href="https://adamgil.es/food/" />
+<meta property="og:url" content="https://adamgil.es/food/" />
 <meta property="og:site_name" content="Recipes" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Recipes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"GitHub User"},"description":"Adam and Tere’s recipes.","headline":"Recipes","url":"https://adamgil.es/food/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"GitHub User"},"description":"Adam and Tere’s recipes.","headline":"Recipes","name":"Recipes","url":"https://adamgil.es/food/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/food/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://adamgil.es/food/feed.xml" title="Recipes" /><!-- Include the necessary libraries for lunr.js search -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -28,26 +28,31 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <!-- Your search input and results container -->
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Search recipes..." />
+    <div id="search-results"></div>
+    <input type="hidden" id="search-index-url" value="https://adamgil.es/food/search_index.json" />
 </div>
+<!-- Include the search.js file -->
+<script src="/food/assets/js/search.js"></script>
+
+<ul>
+  
+    <li>
+      <a href="/food/recipes/dan-dan-noodles/" class="recipe-link">Dan Dan Noodles</a>
+    </li>
+  
+    <li>
+      <a href="/food/recipes/pad-kra-pao/" class="recipe-link">Pad Kra Pao</a>
+    </li>
+  
+    <li>
+      <a href="/food/recipes/sausage-pasta/" class="recipe-link">Sausage Pasta</a>
+    </li>
+  
+</ul>
 
       </div>
     </main><footer class="site-footer h-card">
