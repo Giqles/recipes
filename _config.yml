@@ -24,8 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/recipes" # the subpath of your site, e.g. /blog
 url: "https://adamgil.es" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apsgiles
-github_username:  giqles
+github_username: giqles
 image_base_path: /assets/images/
+
+github:
+  repository: giqles/recipes
 
 # Build settings
 theme: minima

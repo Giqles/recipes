@@ -1,41 +1,65 @@
 .search-container {
-    text-align: center;
-    margin: 20px 0;
-  }
-    
-  #search-input {
-    width: 80%;
-    max-width: 600px;
-    padding: 10px;
-    font-size: 1.2em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+  text-align: center;
+  margin: 20px 0;
+}
   
-  #search-results {
-    margin: 20px 0;
-  }
-  .search-result {
-    font-size: 1.5em; /* Adjust this value to change the font size */
-    padding: 10px 0;  /* Adjust these values to change the padding */
-  }
-  
-  .search-result a {
-    text-decoration: none;
-    color: #333; /* Adjust this value to change the link color */
-  }
-  
-  .search-result a:hover {
-    color: #0077cc; /* Adjust this value to change the link hover color */
-  }
-  
-  .recipe-image {
-    display: block;
-    margin: auto;
-    max-width: 50%;
-  }
-  
-  .recipe-link {
-    font-size: 1.5em; /* Change the value as needed */
-  }
-  
+#search-input {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-results {
+  margin: 20px 0;
+}
+.search-result {
+  font-size: 1.5em; /* Adjust this value to change the font size */
+  padding: 10px 0;  /* Adjust these values to change the padding */
+}
+
+.search-result a {
+  text-decoration: none;
+  color: #333; /* Adjust this value to change the link color */
+}
+
+.search-result a:hover {
+  color: #0077cc; /* Adjust this value to change the link hover color */
+}
+
+.recipe-image {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+.recipe-link {
+  font-size: 1.5em; /* Change the value as needed */
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
