@@ -3,12 +3,12 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../gems/bundler/gems/minima-2863624b903b/_sass/minima/skins/classic.scss",
-		"../../gems/bundler/gems/minima-2863624b903b/_sass/minima/skins/auto.scss",
-		"../../gems/bundler/gems/minima-2863624b903b/_sass/minima/initialize.scss",
-		"../../gems/bundler/gems/minima-2863624b903b/_sass/minima/custom-variables.scss",
-		"../../gems/bundler/gems/minima-2863624b903b/_sass/minima/_base.scss",
-		"../../gems/bundler/gems/minima-2863624b903b/_sass/minima/_layout.scss",
+		"vendor/bundle/ruby/3.0.0/bundler/gems/minima-2863624b903b/_sass/minima/skins/classic.scss",
+		"vendor/bundle/ruby/3.0.0/bundler/gems/minima-2863624b903b/_sass/minima/skins/auto.scss",
+		"vendor/bundle/ruby/3.0.0/bundler/gems/minima-2863624b903b/_sass/minima/initialize.scss",
+		"vendor/bundle/ruby/3.0.0/bundler/gems/minima-2863624b903b/_sass/minima/custom-variables.scss",
+		"vendor/bundle/ruby/3.0.0/bundler/gems/minima-2863624b903b/_sass/minima/_base.scss",
+		"vendor/bundle/ruby/3.0.0/bundler/gems/minima-2863624b903b/_sass/minima/_layout.scss",
 		"_sass/minima/custom-styles.scss"
 	],
 	"sourcesContent": [
