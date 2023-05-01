@@ -37,3 +37,5 @@ gem 'jekyll-recipe', git: 'https://github.com/gildesmarais/jekyll-recipe', branc
 
 # Search
 gem 'jekyll-lunr-js-search'
+
+gem "webrick", "~> 1.8"
